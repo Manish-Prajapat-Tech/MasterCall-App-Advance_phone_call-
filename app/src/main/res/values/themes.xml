@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <style name="Theme.MasterCallApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
+
+
+  </style>
+</resources>
