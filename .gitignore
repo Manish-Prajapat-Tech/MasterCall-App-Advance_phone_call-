@@ -1,0 +1,21 @@
+# Ignore everything by default
+*
+
+# Allow git folders
+!.gitignore
+!.gitkeep
+
+# Allow only selected Java files
+!app/src/main/java/com/mastercallapp/CallManager.java
+!app/src/main/java/com/mastercallapp/IncomingCallActivity.java
+!app/src/main/java/com/mastercallapp/OutgoingCallActivity.java
+
+# Allow selected layout XMLs
+!app/src/main/res/layout/activity_incominig_call.xml
+!app/src/main/res/layout/activity_outgoing_call.xml
+!app/src/main/res/layout/fragment_dialer.xml
+
+# Allow important resource folders
+!app/src/main/res/menu/
+!app/src/main/res/values/
+!app/src/main/res/xml/
